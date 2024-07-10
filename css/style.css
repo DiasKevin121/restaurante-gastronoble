@@ -601,3 +601,37 @@ section {
     bottom: 10px;
 }
 
+.about .content {
+    position: relative;
+}
+
+.about .content h3 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .content ul li {
+    padding-bottom: 10px;
+}
+
+.about .content ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #cda45e;
+}
+
+.about .content p:last-child {
+    margin-bottom: 0;
+}
+
+@media (min-widht: 1024px) {
+    .about {
+        background-attachment: fixed;
+    }
+}
+
