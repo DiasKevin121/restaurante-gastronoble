@@ -205,7 +205,8 @@ Desktop */
 .navbar a:focus {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* ------------Ajuste ----------- */
+    justify-content: space-between;
+    /* ------------Ajuste ----------- */
     padding: 10px 0 10px 30px;
     color: #ececec;
     white-space: nowrap;
@@ -383,7 +384,7 @@ Desktop */
     display: block;
     position: relative;
     overflow: hidden;
-    
+
 }
 
 #hero .play-btn::after {
@@ -480,6 +481,7 @@ Desktop */
         transform: scale(0.6, 0.6);
         opacity: 1;
     }
+
     100% {
         transform: scale(1, 1);
         opacity: 0;
@@ -791,7 +793,7 @@ section {
 }
 
 .specials .nav-link:hover {
-    color: #cda45e;    
+    color: #cda45e;
 }
 
 .specials .nav-link.active {
@@ -848,71 +850,74 @@ section {
     position: relative;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 320px) {
+
+    /* tamnanho 320 serve tambem parta mobile */
     .events {
         background-attachment: fixed;
     }
-
-    .events .events-carousel {
-        background: rgba(255, 255, 255, 0.08);
-        padding: 30px;
-    }
-
-    .events .event-item {
-        color: #fff;
-    }
-
-    .events .event-item h3 {
-        color: #cda45e;
-        font-weight: 600;
-        font-size: 26px;
-    }
-
-    .events .event-item .price {
-        font-size: 26px;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 700;
-        margin-bottom: 15px;
-    }
-
-    .events .event-item .price span {
-        border-bottom: 2px solid #cda45e;
-    }
-
-    .events .event-item ul {
-        list-style: none;
-        padding: 0;
-    }
-
-    .events .event-item ul li {
-        padding-bottom: 10px;
-        color: #ececec;
-    }
-
-    .events .event-item ul i {
-        font-size: 20px;
-        color: #cda45e;
-        padding-right: 4px;
-    }
-
-    .events .event-item p:last-child {
-        color: #fff;
-        margin-bottom: 0;
-    }
-
-    .events .swiper-pagination {
-        margin-top: 30px;
-        position: relative;
-    }
-
-    .events .swiper-pagination .swiper-pagination-bullet {
-        width: 12px;
-        height: 12px;
-        background: rgba(255, 255, 255, 0.4);
-    }
-
-    .events .swiper-pagination .swiper-pagination-bullet-active {
-        background: #cda45e;
-    }
-
 }
+
+.events .events-carousel {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 30px;
+}
+
+.events .event-item {
+    color: #fff;
+}
+
+.events .event-item h3 {
+    color: #cda45e;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.events .event-item .price {
+    font-size: 26px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.events .event-item .price span {
+    border-bottom: 2px solid #cda45e;
+}
+
+.events .event-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.events .event-item ul li {
+    padding-bottom: 10px;
+    color: #ececec;
+}
+
+.events .event-item ul i {
+    font-size: 20px;
+    color: #cda45e;
+    padding-right: 4px;
+}
+
+.events .event-item p:last-child {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.events .swiper-pagination {
+    margin-top: 30px;
+    position: relative;
+}
+
+.events .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.events .swiper-pagination .swiper-pagination-bullet-active {
+    background: #cda45e;
+}
+
+/* ------ Reservas ------ */
